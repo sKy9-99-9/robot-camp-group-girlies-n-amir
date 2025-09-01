@@ -1,5 +1,5 @@
 import base64
 def mfut():
-    return "Amir Al Mousawi"
+    return "Amir"
 
 mfut()
