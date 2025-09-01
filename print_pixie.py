@@ -36,6 +36,6 @@ def act3_pixie():
         f"While they all waited for the lasagna to cook in the oven {char_laur()} found {char_pix()}’s crystal ball and brought it over to the table. "
         f"{char_ali()} and {char_mati()} looked into it and flickering at the bottom of it the truth came into sight. Their eyes unlocked and filled with tears. "
         "Having spent their whole life looking for their long lost twins and finally being reunited filled their hearts with joy. "
-        f"Star dust fell from the sky and the bright moon lighted the room, making this a moment {char_amr()}, even during his long life would never forget."
+        f"Star dust fell from the sky and the bright moon lit the room, making this a moment {char_amr()}, even during his long life, would never forget."
     )
 
