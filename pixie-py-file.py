@@ -1,2 +1,2 @@
-def get_group_name():
-    return "girlies n amir"
+def get_name():
+    return "Pixie"
