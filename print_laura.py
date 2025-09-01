@@ -1,2 +1,2 @@
 def print_laura():
-  print ("Laura")
+  return "Laura"
