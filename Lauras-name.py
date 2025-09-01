@@ -1,4 +1,2 @@
-def print_name():
+def print_laura():
   print ("Laura")
-
-print_name()
