@@ -1,6 +1,7 @@
 from datetime import datetime
 
-def solution_station_2(date_str: str) -> str:
+def solution_station_2(date_str: str):
+        date_obj = datetime.strptime(date_str, "%Y-%m-%d")
         weekdays = {
         0: "月曜日",  # Monday
         1: "火曜日",  # Tuesday
@@ -10,15 +11,7 @@ def solution_station_2(date_str: str) -> str:
         5: "土曜日",  # Saturday
         6: "日曜日",  # Sunday
     }
-
-<<<<<<< HEAD
-
-        date_obj = datetime.strptime(date_str, "%Y-%m-%d")
         return weekdays[date_obj.weekday()]
-=======
-        date_obj = datetime.strptime(date_str, "%Y-%m-%d")
-        return weekdays[date_obj.weekday()]
+        
 
-date_input = input("Enter a date (yyyy-mm-dd): ").strip()
-print(solution_station_2(date_input))
->>>>>>> a6c33b9b66d0a7f907b1692a160f7bc8bf28e435
+

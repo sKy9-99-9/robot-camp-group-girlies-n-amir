@@ -23,4 +23,4 @@ def solution_station_5(name):
     name_to_lt = {n: lt for lt, names in lt_groups.items() for n in names}
 
     # Return LT number
-    return name_to_lt.get(name)
+    return name_to_lt.get(name, -1)
