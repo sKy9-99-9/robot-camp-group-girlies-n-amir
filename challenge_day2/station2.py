@@ -11,20 +11,8 @@ def solution_station_2(date_str: str) -> str:
         6: "日曜日",  # Sunday
     }
 
-<<<<<<< HEAD
-
-        date_obj = datetime.strptime(date_str, "%Y-%m-%d")
-        return weekdays[date_obj.weekday()]
-
-
-
-date_input = input("Enter a date (yyyy-mm-dd): ").strip()
-print(solution_station_2(date_input))
-
-=======
         date_obj = datetime.strptime(date_str, "%Y-%m-%d")
         return weekdays[date_obj.weekday()]
 
 date_input = input("Enter a date (yyyy-mm-dd): ").strip()
 print(solution_station_2(date_input))
->>>>>>> 9112d9d50219e155fb24a7de6048e132745db03c
