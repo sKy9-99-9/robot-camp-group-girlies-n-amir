@@ -4,17 +4,16 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"os"
 )
 
 type Person struct {
-	Name           string `json:"name"`
-	TechnicalSkills float64    `json:"Technical methods"`
-	SoftSkills      float64    `json:"Soft Skills"`
-	BusinessSkills  float64    `json:"Business Skills"`
-	CreativeSkills  float64    `json:"Creative Skills"`
-	AcademicSkills  float64    `json:"Academic Skills"`
+	Name            string  `json:"name"`
+	TechnicalSkills float64 `json:"Technical Skills"`
+	SoftSkills      float64 `json:"Soft Skills"`
+	BusinessSkills  float64 `json:"Business Skills"`
+	CreativeSkills  float64 `json:"Creative Skills"`
+	AcademicSkills  float64 `json:"Academic Skills"`
 }
 
 type People struct {
@@ -23,57 +22,54 @@ type People struct {
 
 func main() {
 	// Read the JSON file
-	jsonFile, err := os.Open("data2.json")
+	jsonBytes, err := os.ReadFile("../fulldata/data2.json")
 	if err != nil {
-		fmt.Println("Error:", err)
-		return
-	}
-	defer jsonFile.Close()
-
-	jsonBytes, err := ioutil.ReadAll(jsonFile)
-	if err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println("read file error:", err)
 		return
 	}
 
 	var people People
-	err = json.Unmarshal(jsonBytes, &people)
-	if err != nil {
-		fmt.Println("Error:", err)
+	if err := json.Unmarshal(jsonBytes, &people); err != nil {
+		fmt.Println("unmarshal error:", err)
 		return
 	}
 
 	// Create a CSV file
 	csvFile, err := os.Create("data3.csv")
 	if err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println("create csv error:", err)
 		return
 	}
 	defer csvFile.Close()
 
 	writer := csv.NewWriter(csvFile)
-	defer writer.Flush()
+	defer func() {
+		writer.Flush()
+		if err := writer.Error(); err != nil {
+			fmt.Println("csv write error:", err)
+		}
+	}()
 
 	// Write header
-	err = writer.Write([]string{"Name", "Technical Skills", "Soft Skills", "Business Skills", "Creative Skills", "Academic Skills"})
-	if err != nil {
-		fmt.Println("Error:", err)
+	if err := writer.Write([]string{
+		"Name", "Technical Skills", "Soft Skills", "Business Skills", "Creative Skills", "Academic Skills",
+	}); err != nil {
+		fmt.Println("write header error:", err)
 		return
 	}
 
 	// Write data
-	for _, person := range people.People {
+	for _, p := range people.People {
 		row := []string{
-			person.Name,
-			fmt.Sprint(person.TechnicalSkills),
-			fmt.Sprint(person.SoftSkills),
-			fmt.Sprint(person.BusinessSkills),
-			fmt.Sprint(person.CreativeSkills),
-			fmt.Sprint(person.AcademicSkills),
+			p.Name,
+			fmt.Sprint(p.TechnicalSkills),
+			fmt.Sprint(p.SoftSkills),
+			fmt.Sprint(p.BusinessSkills),
+			fmt.Sprint(p.CreativeSkills),
+			fmt.Sprint(p.AcademicSkills),
 		}
-		err = writer.Write(row)
-		if err != nil {
-			fmt.Println("Error:", err)
+		if err := writer.Write(row); err != nil {
+			fmt.Println("write row error:", err)
 			return
 		}
 	}
