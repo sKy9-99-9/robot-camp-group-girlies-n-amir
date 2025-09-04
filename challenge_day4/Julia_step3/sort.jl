@@ -1,8 +1,10 @@
 using CSV, DataFrames, Statistics, DelimitedFiles
 
-csv_path = joinpath(@__DIR__, "data3.csv")  # file is now in the same folder
-println("Trying to load CSV from: ", csv_path)
-println("File exists? ", isfile(csv_path))  # should print true
+println("Current directory: ", pwd())   # shows where Julia is looking by default
+
+csv_path = joinpath(@__DIR__, "data3.csv")
+println("Full CSV path: ", csv_path)
+println("Does the file exist? ", isfile(csv_path))
 
 people_df = CSV.File(csv_path; delim='\t') |> DataFrame
 println("CSV loaded successfully. Rows: ", nrow(people_df))
