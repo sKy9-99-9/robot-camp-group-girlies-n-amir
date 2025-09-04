@@ -4,7 +4,7 @@ csv_path = joinpath(@__DIR__, "data3.csv")  # file is now in the same folder
 println("Trying to load CSV from: ", csv_path)
 println("File exists? ", isfile(csv_path))  # should print true
 
-people_df = CSV.File(csv_path) |> DataFrame
+people_df = CSV.File(csv_path; delim='\t') |> DataFrame
 println("CSV loaded successfully. Rows: ", nrow(people_df))
 
 # Function to classify a score based on quartiles
