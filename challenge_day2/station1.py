@@ -1,4 +1,4 @@
-def solution_station_1(n: int) -> int:
+def solution_station_1(n: int):
     if n < 0:
         raise ValueError("n must be a non-negative integer")
     if n == 0:

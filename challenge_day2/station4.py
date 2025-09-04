@@ -1,4 +1,4 @@
-def solution_station_4(n: int) -> bool:
+def solution_station_4(n: int):
     try:
         
         if n <= 1:
@@ -16,5 +16,3 @@ def solution_station_4(n: int) -> bool:
     except Exception:
         return False
 
-n = int(input().strip())
-print(solution_station_4(n))

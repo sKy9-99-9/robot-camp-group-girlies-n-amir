@@ -1,4 +1,4 @@
-def solution_station_7(input)
+def solution_station_7(expr: str):
     values = {
         "e": 0.5,
         "c": 4,
@@ -7,4 +7,4 @@ def solution_station_7(input)
         "d": 7
     }
 
-    return eval(expr, {}, values)
+    return float(eval(expr, {}, values))
