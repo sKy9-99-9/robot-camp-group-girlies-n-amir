@@ -1,6 +1,6 @@
 using CSV, DataFrames, Statistics, DelimitedFiles
 
-csv_path = joinpath(@__DIR__, "data3.csv")
+csv_path = joinpath(@__DIR__, "..", "fulldata", "data3.csv")
 
 people_df = CSV.File(csv_path; delim='\t') |> DataFrame
 println("CSV loaded successfully. Rows: ", nrow(people_df))
