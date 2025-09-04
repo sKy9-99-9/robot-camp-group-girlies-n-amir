@@ -1,101 +1,101 @@
 Name,Technical Skills,Soft Skills,Business Skills,Creative Skills,Academic Skills,Summary,Evaluation,Comments
-"Leo,8,10,8,9,6",low,low,0,Needs Improvement
-"Liam,10,8,6.1687,8,9",low,low,0,Needs Improvement
-"Neil,10,4,7,8,9",low,low,0,Needs Improvement
-"Wesley,1,9,7,6.8941,7",low,low,0,Needs Improvement
-"Hugo,9,3,1,1,2",low,low,0,Needs Improvement
-"Kathy,5,3,10,6,9",low,low,0,Needs Improvement
-"Emily,6.6375,9,2,9,6.7531",low,low,0,Needs Improvement
-"Bob,5,4,6,9,6.7531",low,low,0,Needs Improvement
-"Lenny,6.6375,9,6,5,6",low,low,0,Needs Improvement
-"Jeff,7,1,1,10,10",low,low,0,Needs Improvement
-"Nina,1,10,4,8,8",low,low,0,Needs Improvement
-"Mabel,10,6.5976,10,7,6.7531",low,low,0,Needs Improvement
-"Kristen,5,3,10,8,10",low,low,0,Needs Improvement
-"Gail,6,8,1,9,5",low,low,0,Needs Improvement
-"Yasmine,2,6.5976,9,9,2",low,low,0,Needs Improvement
-"Tim,10,6,5,1,3",low,low,0,Needs Improvement
-"Yvonne,6.6375,9,8,9,6.7531",low,low,0,Needs Improvement
-"Owen,2,8,6,8,10",low,low,0,Needs Improvement
-"Fay,1,1,4,9,2",low,low,0,Needs Improvement
-"Jack,1,3,9,6.8941,6.7531",low,low,0,Needs Improvement
-"Norm,10,5,2,6,10",low,low,0,Needs Improvement
-"Duke,3,8,6.1687,1,6",low,low,0,Needs Improvement
-"Tracy,10,9,9,8,8",low,low,0,Needs Improvement
-"Rose,10,6.5976,6.1687,3,9",low,low,0,Needs Improvement
-"Steve,2,6,6,8,9",low,low,0,Needs Improvement
-"Irene,7,8,10,9,5",low,low,0,Needs Improvement
-"Roger,8,1,4,8,9",low,low,0,Needs Improvement
-"Sam,8,8,6.1687,6.8941,9",low,low,0,Needs Improvement
-"Victor,10,2,2,8,2",low,low,0,Needs Improvement
-"Gwen,9,9,3,9,10",low,low,0,Needs Improvement
-"Otis,6,5,8,4,3",low,low,0,Needs Improvement
-"Quinn,9,3,5,6.8941,6.7531",low,low,0,Needs Improvement
-"Ian,8,8,10,9,10",low,low,0,Needs Improvement
-"Megan,2,4,2,6,8",low,low,0,Needs Improvement
-"Eve,6.6375,10,6.1687,10,9",low,low,0,Needs Improvement
-"Kim,9,9,9,10,6.7531",low,low,0,Needs Improvement
-"Xiomara,8,2,6.1687,5,10",low,low,0,Needs Improvement
-"Louis,10,6.5976,2,8,8",low,low,0,Needs Improvement
-"Leonard,8,5,10,1,10",low,low,0,Needs Improvement
-"Mindy,10,8,6,8,6.7531",low,low,0,Needs Improvement
-"Trevor,7,5,9,10,10",low,low,0,Needs Improvement
-"Oscar,9,8,6,3,6.7531",low,low,0,Needs Improvement
-"Pam,7,10,8,8,5",low,low,0,Needs Improvement
-"Grace,5,7,3,8,1",low,low,0,Needs Improvement
-"Upton,6.6375,9,10,10,8",low,low,0,Needs Improvement
-"Avery,9,3,6.1687,9,10",low,low,0,Needs Improvement
-"Howard,3,9,6.1687,9,8",low,low,0,Needs Improvement
-"Daisy,10,7,9,6.8941,1",low,low,0,Needs Improvement
-"Dave,6.6375,6,2,2,4",low,low,0,Needs Improvement
-"Ursula,1,6,3,10,9",low,low,0,Needs Improvement
-"Bill,6.6375,6.5976,8,10,1",low,low,0,Needs Improvement
-"Vivian,6.6375,4,4,10,8",low,low,0,Needs Improvement
-"Xyla,10,6.5976,8,6.8941,9",low,low,0,Needs Improvement
-"Ulrich,6.6375,3,6.1687,8,10",low,low,0,Needs Improvement
-"Katie,6,6.5976,6.1687,10,4",low,low,0,Needs Improvement
-"Preston,4,8,9,4,10",low,low,0,Needs Improvement
-"Queenie,10,6.5976,9,5,9",low,low,0,Needs Improvement
-"Gerald,2,8,4,9,1",low,low,0,Needs Improvement
-"Isaac,3,8,6,10,6.7531",low,low,0,Needs Improvement
-"Nick,6.6375,8,1,8,6.7531",low,low,0,Needs Improvement
-"Gina,6.6375,8,5,7,9",low,low,0,Needs Improvement
-"Alice,9,10,6,6.8941,9",low,low,0,Needs Improvement
-"Arthur,10,6.5976,6,6.8941,1",low,low,0,Needs Improvement
-"Catherine,10,6.5976,10,2,10",low,low,0,Needs Improvement
-"Walter,10,6.5976,10,8,6.7531",low,low,0,Needs Improvement
-"Amy,6,8,10,10,10",low,low,0,Needs Improvement
-"Wilma,8,8,6.1687,10,6.7531",low,low,0,Needs Improvement
-"Ned,4,8,9,8,8",low,low,0,Needs Improvement
-"Vera,7,6.5976,6.1687,8,10",low,low,0,Needs Improvement
-"Ivy,4,6.5976,6.1687,2,5",low,low,0,Needs Improvement
-"Susie,8,8,6.1687,2,7",low,low,0,Needs Improvement
-"Tina,8,10,5,6,6",low,low,0,Needs Improvement
-"Daniel,6.6375,2,6,6.8941,7",low,low,0,Needs Improvement
-"Camille,8,6.5976,2,7,6.7531",low,low,0,Needs Improvement
-"Rhonda,2,8,8,6.8941,9",low,low,0,Needs Improvement
-"Ron,6,4,6,6.8941,6",low,low,0,Needs Improvement
-"Paul,6.6375,6.5976,2,4,4",low,low,0,Needs Improvement
-"Olivia,10,7,3,6.8941,4",low,low,0,Needs Improvement
-"Tom,9,9,9,6.8941,6.7531",low,low,0,Needs Improvement
-"Quincy,6,9,3,1,6.7531",low,low,0,Needs Improvement
-"Zinnia,6.6375,6.5976,9,9,10",low,low,0,Needs Improvement
-"George,8,9,6.1687,5,6.7531",low,low,0,Needs Improvement
-"Ken,2,6.5976,8,3,9",low,low,0,Needs Improvement
-"Clara,6.6375,6,1,10,6",low,low,0,Needs Improvement
-"Mary,6,10,4,10,3",low,low,0,Needs Improvement
-"Quasar,4,1,4,10,6",low,low,0,Needs Improvement
-"Yogi,1,9,6,10,6.7531",low,low,0,Needs Improvement
-"Julian,4,9,1,2,4",low,low,0,Needs Improvement
-"Ulysses,8,6.5976,7,5,10",low,low,0,Needs Improvement
-"Ulla,6.6375,9,10,2,7",low,low,0,Needs Improvement
-"Helen,6.6375,8,10,9,6",low,low,0,Needs Improvement
-"Dexter,6.6375,2,9,6.8941,6",low,low,0,Needs Improvement
-"Carlos,6.6375,1,6.1687,9,1",low,low,0,Needs Improvement
-"Xander,6.6375,10,3,9,2",low,low,0,Needs Improvement
-"Olive,8,8,10,6,8",low,low,0,Needs Improvement
-"Tabitha,8,10,6,8,3",low,low,0,Needs Improvement
-"Ella,9,9,4,6.8941,6.7531",low,low,0,Needs Improvement
-"Maureen,4,1,6.1687,1,10",low,low,0,Needs Improvement
-"Wanda,8,3,10,4,5",low,low,0,Needs Improvement
-"Angela,10,10,9,2,5",low,low,0,Needs Improvement
+Leo,middle,super,good,good,middle,super,3.8,Excellent
+Liam,super,middle,low,middle,good,super,3.4,Excellent
+Neil,super,low,good,middle,good,super,3.6,Excellent
+Wesley,low,good,good,low,middle,good,3,Promising
+Hugo,good,low,low,low,low,low,2.4,Promising
+Kathy,middle,low,super,middle,good,super,3.4,Excellent
+Emily,low,good,low,good,low,good,2.8,Promising
+Bob,middle,low,middle,good,low,low,2.8,Promising
+Lenny,low,good,middle,low,middle,low,2.8,Promising
+Jeff,middle,low,low,super,super,super,3.4,Excellent
+Nina,low,super,low,middle,middle,super,3,Excellent
+Mabel,super,low,super,middle,low,super,3.4,Excellent
+Kristen,middle,low,super,middle,super,super,3.6,Excellent
+Gail,middle,middle,low,good,low,low,2.8,Promising
+Yasmine,low,low,good,good,low,good,2.8,Promising
+Tim,super,middle,middle,low,low,super,3,Excellent
+Yvonne,low,good,good,good,low,good,3.2,Promising
+Owen,low,middle,middle,middle,super,super,3.2,Excellent
+Fay,low,low,low,good,low,low,2.4,Promising
+Jack,low,low,good,low,low,low,2.4,Promising
+Norm,super,middle,low,middle,super,super,3.6,Excellent
+Duke,low,middle,low,low,middle,low,2.4,Promising
+Tracy,super,good,good,middle,middle,super,3.8,Excellent
+Rose,super,low,low,low,good,super,3,Excellent
+Steve,low,middle,middle,middle,good,middle,3,Promising
+Irene,middle,middle,super,good,low,super,3.4,Excellent
+Roger,middle,low,low,middle,good,low,2.8,Promising
+Sam,middle,middle,low,low,good,low,2.8,Promising
+Victor,super,low,low,middle,low,super,2.8,Good but inconsistent
+Gwen,good,good,low,good,super,super,3.8,Excellent
+Otis,middle,middle,good,low,low,low,2.8,Promising
+Quinn,good,low,middle,low,low,low,2.6,Promising
+Ian,middle,middle,super,good,super,super,4,Excellent
+Megan,low,low,low,middle,middle,low,2.4,Promising
+Eve,low,super,low,super,good,super,3.6,Excellent
+Kim,good,good,good,super,low,super,3.8,Excellent
+Xiomara,middle,low,low,low,super,super,2.8,Good but inconsistent
+Louis,super,low,low,middle,middle,super,3,Excellent
+Leonard,middle,middle,super,low,super,super,3.6,Excellent
+Mindy,super,middle,middle,middle,low,super,3.2,Excellent
+Trevor,middle,middle,good,super,super,super,4,Excellent
+Oscar,good,middle,middle,low,low,low,2.8,Promising
+Pam,middle,super,good,middle,low,super,3.4,Excellent
+Grace,middle,middle,low,middle,low,middle,2.6,Promising
+Upton,low,good,super,super,middle,super,3.8,Excellent
+Avery,good,low,low,good,super,super,3.4,Excellent
+Howard,low,good,low,good,middle,good,3,Promising
+Daisy,super,middle,good,low,low,super,3.2,Excellent
+Dave,low,middle,low,low,low,low,2.2,Promising
+Ursula,low,middle,low,super,good,super,3.2,Excellent
+Bill,low,low,good,super,low,super,3,Excellent
+Vivian,low,low,low,super,middle,super,2.8,Good but inconsistent
+Xyla,super,low,good,low,good,super,3.4,Excellent
+Ulrich,low,low,low,middle,super,super,2.8,Good but inconsistent
+Katie,middle,low,low,super,low,super,2.8,Good but inconsistent
+Preston,low,middle,good,low,super,super,3.2,Excellent
+Queenie,super,low,good,low,good,super,3.4,Excellent
+Gerald,low,middle,low,good,low,low,2.6,Promising
+Isaac,low,middle,middle,super,low,super,3,Excellent
+Nick,low,middle,low,middle,low,low,2.4,Promising
+Gina,low,middle,middle,middle,good,middle,3,Promising
+Alice,good,super,middle,low,good,super,3.6,Excellent
+Arthur,super,low,middle,low,low,super,2.8,Good but inconsistent
+Catherine,super,low,super,low,super,super,3.8,Excellent
+Walter,super,low,super,middle,low,super,3.4,Excellent
+Amy,middle,middle,super,super,super,super,4.2,Excellent
+Wilma,middle,middle,low,super,low,super,3,Excellent
+Ned,low,middle,good,middle,middle,middle,3,Promising
+Vera,middle,low,low,middle,super,super,3,Excellent
+Ivy,low,low,low,low,low,low,2,Promising
+Susie,middle,middle,low,low,middle,middle,2.6,Promising
+Tina,middle,super,middle,middle,middle,super,3.4,Excellent
+Daniel,low,low,middle,low,middle,low,2.4,Promising
+Camille,middle,low,low,middle,low,low,2.4,Promising
+Rhonda,low,middle,good,low,good,good,3,Promising
+Ron,middle,low,middle,low,middle,middle,2.6,Promising
+Paul,low,low,low,low,low,low,2,Promising
+Olivia,super,middle,low,low,low,super,2.8,Good but inconsistent
+Tom,good,good,good,low,low,good,3.2,Promising
+Quincy,middle,good,low,low,low,low,2.6,Promising
+Zinnia,low,low,good,good,super,super,3.4,Excellent
+George,middle,good,low,low,low,low,2.6,Promising
+Ken,low,low,good,low,good,good,2.8,Promising
+Clara,low,middle,low,super,middle,super,3,Excellent
+Mary,middle,super,low,super,low,super,3.4,Excellent
+Quasar,low,low,low,super,middle,super,2.8,Good but inconsistent
+Yogi,low,good,middle,super,low,super,3.2,Excellent
+Julian,low,good,low,low,low,low,2.4,Promising
+Ulysses,middle,low,good,low,super,super,3.2,Excellent
+Ulla,low,good,super,low,middle,super,3.2,Excellent
+Helen,low,middle,super,good,middle,super,3.4,Excellent
+Dexter,low,low,good,low,middle,low,2.6,Promising
+Carlos,low,low,low,good,low,low,2.4,Promising
+Xander,low,super,low,good,low,super,3,Excellent
+Olive,middle,middle,super,middle,middle,super,3.4,Excellent
+Tabitha,middle,super,middle,middle,low,super,3.2,Excellent
+Ella,good,good,low,low,low,good,2.8,Promising
+Maureen,low,low,low,low,super,super,2.6,Good but inconsistent
+Wanda,middle,low,super,low,low,super,2.8,Good but inconsistent
+Angela,super,super,good,low,low,super,3.6,Excellent
