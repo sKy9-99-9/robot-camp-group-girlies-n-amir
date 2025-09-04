@@ -1,14 +1,11 @@
-using DataFrames, CSV, Statistics, DelimitedFiles
+using CSV, DataFrames, Statistics, DelimitedFiles
 
-# Build the absolute path
-csv_path = joinpath(@__DIR__, "data3.csv")
+csv_path = joinpath(@__DIR__, "data3.csv")  # file is now in the same folder
+println("Trying to load CSV from: ", csv_path)
+println("File exists? ", isfile(csv_path))  # should print true
 
-# Debug check
-println("Loading CSV from: ", csv_path)
-println("Exists? ", isfile(csv_path))  # should print true
-
-# Load CSV
 people_df = CSV.File(csv_path) |> DataFrame
+println("CSV loaded successfully. Rows: ", nrow(people_df))
 
 # Function to classify a score based on quartiles
 function classify_score(score, quartiles)
