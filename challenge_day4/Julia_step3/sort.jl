@@ -1,9 +1,7 @@
-using CSV, DataFrames, Statistics, DelimitedFiles
+using DataFrames, CSV, Statistics, DelimitedFiles
 
-csv_path = joinpath(@__DIR__, "..", "fulldata", "data3.csv")
-
-people_df = CSV.File(csv_path; delim='\t') |> DataFrame
-println("CSV loaded successfully. Rows: ", nrow(people_df))
+# Read the CSV file into a DataFrame
+people_df = CSV.File("data3.csv") |> DataFrame
 
 # Function to classify a score based on quartiles
 function classify_score(score, quartiles)
@@ -31,7 +29,7 @@ for col_name in names(people_df)[2:end]
         continue
     end
 
-    quartiles = quantile(collect(valid_data), [0.25, 0.5, 0.75])
+    quartiles = quantile(valid_data, [0.25, 0.5, 0.75])
 
     # Replace values with categories or 'low' if they are Float64
     new_col = map(x -> x isa Float64 ? "low" : classify_score(x, quartiles), col_data)
