@@ -1,8 +1,10 @@
 using DataFrames, CSV, Statistics, DelimitedFiles
 
 testpath = joinpath(@__DIR__, "..", "testdata", "data3.csv")
-println("Looking for file at: $testpath")
+println("Trying to load CSV from: ", testpath)
 println("File exists? ", isfile(testpath))
+people_df = CSV.File(testpath) |> DataFrame
+
 
 # Read the CSV file into a DataFrame
 people_df = CSV.File(joinpath(@__DIR__, "..", "testdata", "data3.csv")) |> DataFrame
