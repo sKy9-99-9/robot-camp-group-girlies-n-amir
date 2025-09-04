@@ -1,7 +1,7 @@
 using DataFrames, CSV, Statistics, DelimitedFiles
 
 # Build the absolute path
-csv_path = "/Users/lauraponoran/Downloads/robot-camp-group-main/challenge_day4/testdata/data3.csv"
+csv_path = joinpath(@__DIR__, "data3.csv")
 
 # Debug check
 println("Loading CSV from: ", csv_path)
