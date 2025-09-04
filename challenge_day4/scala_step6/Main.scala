@@ -5,7 +5,9 @@ object Main {
   def main(args: Array[String]): Unit = {
     val inputPath = "../fulldata/data6.txt"
     val outputPath = "../fulldata/data7.txt"
+
     val lines = scala.io.Source.fromFile(inputPath).getLines().toList
+
     val outputLines = lines.zipWithIndex.map {
       case (line, 0) => s"$line,Comments"
       case (line, _) =>
@@ -22,6 +24,10 @@ object Main {
           }
           s"$line,$comments"
         }
+    }
+
+    if (!Files.exists(Paths.get("../fulldata"))) {
+      Files.createDirectories(Paths.get("../fulldata"))
     }
 
     Files.write(Paths.get(outputPath), outputLines.mkString("\n").getBytes)
